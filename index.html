@@ -26,7 +26,7 @@
         h1, h2 {
             color: #006400;
         }
-        .product {
+        .product, .about, .mission {
             background: white;
             padding: 20px;
             margin-bottom: 20px;
@@ -48,6 +48,40 @@
         .cta-button:hover {
             background-color: #004d00;
         }
+        .mission-section {
+            background-color: #000;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .mission-section h2 {
+            color: #ffd700;
+        }
+        .mission-section .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .mission-section .container div {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ffd700;
+            border-radius: 8px;
+            background-color: #333;
+        }
+        .mission-section .container div img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .mission-section .container div h3 {
+            color: #ffd700;
+        }
+        .mission-section .container div p {
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -63,6 +97,36 @@
         <div class="product">
             <h2>Antecipação de Saque FGTS</h2>
             <p>Descrição sobre a antecipação de saque FGTS pode ser adicionada aqui.</p>
+        </div>
+        <div class="mission-section">
+            <h2>🌟 Nossa Missão</h2>
+            <p>Gera valor e satisfação a clientes, colaboradores e parceiros, atingindo a excelência de maneira sustentável.</p>
+            <div class="container">
+                <div>
+                    <h3>Nossa Visão</h3>
+                    <p>Ser referência de agilidade, qualidade e eficiência na intermediação de crédito consignado.</p>
+                </div>
+                <div>
+                    <h3>Uma empresa de valores</h3>
+                    <p>Ética, respeito, proatividade, honestidade, qualidade e eficiência.</p>
+                </div>
+                <div>
+                    <h3>Atendimento Vip</h3>
+                    <p>Temos uma equipe de consultores financeiros especializados.</p>
+                </div>
+                <div>
+                    <h3>As melhores taxas do mercado</h3>
+                    <p>Condições e prazos flexíveis encaixados no seu orçamento.</p>
+                </div>
+                <div>
+                    <h3>Crédito descomplicado</h3>
+                    <p>100% on-line, com uma equipe ágil, transparente e qualificada.</p>
+                </div>
+                <div>
+                    <h3>Agilidade e praticidade</h3>
+                    <p>Valor na conta até 24h c/ parcelas descontadas em seu benefício.</p>
+                </div>
+            </div>
         </div>
         <a href="https://wa.me/15096991671641" class="cta-button">Fale Conosco no WhatsApp</a>
     </div>
